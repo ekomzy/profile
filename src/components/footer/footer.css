@@ -1,0 +1,11 @@
+.figma__footer {
+    display: flex;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    align-items: center;
+    padding: 1rem;
+}
+
+.figma__footer img{
+    cursor: pointer;
+}
