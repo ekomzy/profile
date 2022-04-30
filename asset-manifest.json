@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/profile/static/css/main.d51ebb8e.css",
+    "main.js": "/profile/static/js/main.838f8649.js",
+    "static/media/Rectangle.png": "/profile/static/media/Rectangle.a47159f8e75eec5bbe14.png",
+    "index.html": "/profile/index.html",
+    "main.d51ebb8e.css.map": "/profile/static/css/main.d51ebb8e.css.map",
+    "main.838f8649.js.map": "/profile/static/js/main.838f8649.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d51ebb8e.css",
+    "static/js/main.838f8649.js"
+  ]
+}
