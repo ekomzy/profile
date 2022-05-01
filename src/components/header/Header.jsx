@@ -15,18 +15,18 @@ const Header = () => {
           <p>Frontend Developer</p>
           <p>berrywhyte@gmail.com</p>
         </div>
+
         <div className="figma__header-btn">
           <button type='button' className='btn'>
-          <Emailsvg fill="#1E1F26"/>
-
+            <Emailsvg fill="#1E1F26" className="bt"/>
             <span>Email</span>
           </button>
-          <button type='button' className='btn'>
-            <Linkedin fill="#fff"/>
-            
 
+          <button type='button' className='btn'>
+            <Linkedin fill="#fff" className="bt"/>
             <span>Linkedin</span>
           </button>
+
         </div>
       </div>
     </div>
