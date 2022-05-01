@@ -1,5 +1,7 @@
 import React from 'react';
-import { email, linkdin, imgfm} from "./imports";
+import {imgfm} from "./imports";
+import Emailsvg from "./Emailsvg"
+import Linkedin from "./Linkedinsvg"
 import "./header.css";
 
 const Header = () => {
@@ -15,11 +17,14 @@ const Header = () => {
         </div>
         <div className="figma__header-btn">
           <button type='button' className='btn'>
-            <img src={email} alt="email"/>
+          <Emailsvg fill="#1E1F26"/>
+
             <span>Email</span>
           </button>
           <button type='button' className='btn'>
-            <img src={linkdin} alt="linkedin"/>
+            <Linkedin fill="#fff"/>
+            
+
             <span>Linkedin</span>
           </button>
         </div>
